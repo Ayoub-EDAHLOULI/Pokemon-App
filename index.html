@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <!--Style CSS Link-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/img/Pokemon_ball.ico">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="swiper mySwiper">
+        <div class="container swiper-wrapper">
+            <img src="./img/Pokemon.png" alt="" class="logo">
+    
+            <form action="" id="form">
+                <input type="text" id="pokemonFilter" class="search" placeholder="Search Your Pokemon">
+                <img src="./img/Pokemon_ball.png" id="inputBtn" alt="">
+            </form>
+        
+            <div class="pokemon"></div>
+            <div class="image"></div>
+            <div class="pokemonInfos"></div>
+            <button id="loadMore">Load More</button>
+            <div id="preloader"></div>
+        </div>
+    </div>
+
+    <!--JavaScript Link-->
+    <script src="./script.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+</body>
+</html>
